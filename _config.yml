@@ -1,18 +1,7 @@
-collections:
-  authors:
-    output: true
+name: Sitio personal de Vicente Palomero
+markdown: kramdown
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:

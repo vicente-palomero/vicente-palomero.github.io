@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
   <head>
@@ -9,7 +9,14 @@
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <header>
+      {% include header.html %}
+    </header>
+    <main>
+      {% include main.html %}
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
   </body>
 </html>

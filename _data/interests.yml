@@ -1,0 +1,8 @@
+- name: Leemergence
+  link: http://leemergence.wordpress.com
+  desc: Blog de reseñas, compartido con <a href="http://twitter.com/jgaallaardo">@jgaallaardo</a>.
+- name: mimenu
+  link: https://mimenu-dashboard.herokuapp.com
+  desc: WebApp PWA para gestionar los menús de la semana.
+- name: Terminología y lingüística
+  desc: Variación terminológica, violencia de género y política.
