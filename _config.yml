@@ -1,3 +1,9 @@
+name: Vicente Palomero's personal site
+markdown: kramdown
+
+exclude:
+  - README.md
+
 collections:
   authors:
     output: true
