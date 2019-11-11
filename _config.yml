@@ -1,7 +1,21 @@
 name: Sitio personal de Vicente Palomero
 markdown: kramdown
 
+collections:
+  categories:
+    output: true
+
 defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   - scope:
       path: ""
     values:
